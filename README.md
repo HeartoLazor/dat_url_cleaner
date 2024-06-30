@@ -56,6 +56,8 @@ Example:
 
 `python -m dat_url_cleaner -i .\example\example_urls.txt -d .\example\example_dat.dat -o .\example\example_out.dat`
 
+You can run/edit the run_example.bat to check how the utility works, using the included example url list and dat file. 
+
 ### License
 
 MIT License
