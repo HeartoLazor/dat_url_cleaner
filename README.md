@@ -28,7 +28,7 @@ Note 2: the links urls can have html encoded characters, for example Super%20Mar
 
 * Let's take myrient as an example, you go to the page with the links you want to generate a list, for example any of no-intro dumps.
 * Inspect the page (F12) and pick any row and copy all the table to a word processor, we will use sublime for this example.
-* Clean the html code, leaving only the table rows, which are lines enclosed by <td> something. You will end with something like this:
+* Clean the html code, leaving only the table rows, which are lines enclosed by `<td>`. You will end with something like this:
   ![step_1](https://github.com/HeartoLazor/dat_url_cleaner/blob/main/readme_images/url_generation_1.png)
 * Replace the left side of the url: `<tr><td class="link"><a href="` with the url to the file, for example: `https://awesome_site.com/files/Redump/Sony%20-%20PlayStation/`, you should end with something like this:
   ![step_2](https://github.com/HeartoLazor/dat_url_cleaner/blob/main/readme_images/url_generation_2.png)
@@ -36,11 +36,11 @@ Note 2: the links urls can have html encoded characters, for example Super%20Mar
   `" title="'98 Koushien (Japan) (Demo).zip">'98 Koushien (Japan) (Demo).zip</a></td><td class="size">175.9 MiB</td><td class="date">03-Apr-2024 20:43</td></tr>`
   For this reason, to remove the right side we should use regex, you can use this regex to achieve this: `\start_character[^end_character]*\end_character`, where we replace the start_character with the first character to search between and end_character with the latest character to search between, don't forget to enable regex in the sublime replace menu.
   In this example the resulted regex is start from `"` character to `break line` character, which result in
-  `\"[^
-
+```
+\"[^
 ]*\
 
-`
+```
 and replace it with just a break line. Ending with a  url list, ready to be cleaned by this utility:
   ![step_3](https://github.com/HeartoLazor/dat_url_cleaner/blob/main/readme_images/url_generation_3.png)
 
