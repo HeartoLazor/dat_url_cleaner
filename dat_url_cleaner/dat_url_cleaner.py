@@ -1,14 +1,14 @@
 #!/usr/bin/python
 # Author: Hearto Lazor
 # Clean a list of urls using a Rom management Dat file.
-# Tool page: https://github.com/HeartoLazor/autotile_generator
+# Tool page: https://github.com/HeartoLazor/dat_url_cleaner
 # Developed and tested in python 3.x
 # Command examples:
 #    python.exe .\dat_url_cleaner\dat_url_cleaner.py -i .\example\example_urls.txt -d .\example\example_dat.dat -o .\example\example_out.dat
 # Dat Url Cleaner utility, cleans an url list based in a rom dat file. Useful to clean an url list that are expensive to download/store, 
 # for example playstation 2 romset.
-# An example is to copy the html table from myrient download lists, use a word processor tool like sublime to leave only the 
-# links on each line and then pass that list in this tool using a dat file.
+# An example is to copy the html table from myrient download lists, use a word processor tool like sublime to leave  only one 
+# link per each line and then pass that list in this tool using a dat file.
 # Then use the generated list file in a mass downloader like jdownloader to download them all.
 # Generates three files after finish:
 #    out.txt: name can be defined by the -o command, it's the url list ready to copy to a mass downloader client like jdownloader.
@@ -17,7 +17,7 @@
 # Note 1: the links requires to have the same rom/iso name as the name found in the dat file. For example if in the dat the 
 # filename is (Super Mario: Lost Levels) and in the url is (Super Mario Lost Levels), the url will be discarded because of the : character. 
 # Note 2: the links urls can have html encoded characters, for example Super%20Mario%20World is transformed automatically to spaces, 
-# also caps are ignores in comparisons.
+# also caps are ignored in comparisons.
 # -i --input_url_list: rom input url list, where each url is one line.
 # -d --input_dat: rom organization dat file.
 # -o --out: optional parameter, cleaned generated list intended to use in jdownloader or another mass downloader client.
@@ -108,10 +108,10 @@ def process(input_url_list, input_dat, out_name):
     
 def main():
     print("Dat Url Cleaner utility, cleans an url list based in a rom dat file. Useful to clean an url list that are expensive to download/store, for example playstation 2 romset.\n" +
-          "An example is to copy the html table from myrient download lists, use a word processor tool like sublime to leave only the links on each line and then pass that list in this tool using a dat file.\n" + 
+          "An example is to copy the html table from myrient download lists, use a word processor tool like sublime to leave only one link per each line and then pass that list in this tool using a dat file.\n" + 
           "Then use the generated list file in a mass downloader like jdownloader to download them all.\n" +
           "Note 1: the links requires to have the same rom/iso name as the name found in the dat file. For example if in the dat the filename is (Super Mario: Lost Levels) and in the url is (Super Mario Lost Levels), the url will be discarded because of the : character.\n" + 
-          "Note 2: the links urls can have html encoded characters, for example Super%20Mario%20World is transformed automatically to spaces, also caps are ignores in comparisons.\n") 
+          "Note 2: the links urls can have html encoded characters, for example Super%20Mario%20World is transformed automatically to spaces, also caps are ignored in comparisons.\n") 
     parser = ArgumentParser()
     parser.add_argument("-i", "--input_url_list", type=str, dest="input_url_list", required=True, help="rom input url list, where each url is one line.")
     parser.add_argument("-d", "--input_dat", type=str, dest="input_dat", required=True, help=" rom organization dat file.")
