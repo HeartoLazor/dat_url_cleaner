@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!DOCTYPE datafile PUBLIC "-//Logiqx//DTD ROM Management Datafile//EN" "https://raw.githubusercontent.com/unexpectedpanda/retool-clonelists-metadata/main/datafile.dtd">
+<datafile>
+	<header>
+		<name>Sony - PlayStation (Retool)</name>
+		<description>Example dat</description>
+		<version>2024-06-25 02-31-30</version>
+		<date>2024-06-27 02-37-07</date>
+		<author>redump.org</author>
+		<homepage>http://www.github.com/unexpectedpanda/retool</homepage>
+		<url>http://redump.org/</url>
+		<retool>Created by Retool 2.3.8</retool>
+	</header>
+	<game name="'98 Koushien - Koukou Yakyuu Simulation (Japan)">
+		<category>Games</category>
+		<description>'98 Koushien - Koukou Yakyuu Simulation (Japan)</description>
+		<rom name="'98 Koushien - Koukou Yakyuu Simulation (Japan).cue" size="113" crc="da95e43a" md5="586b55e4995a30b2d5276fb3319d6652" sha1="4ae5ec2115521be41b637e75ce3b38c9f78d9b3e"/>
+		<rom name="'98 Koushien - Koukou Yakyuu Simulation (Japan).bin" size="583415952" crc="8acd8fb1" md5="39a936ea7521157838d4e67b24f62f15" sha1="782c50827bf4cf8fe5530b64b188a2d43c75b0e0"/>
+	</game>
+	<game name="'99 Koushien (Japan)">
+		<category>Games</category>
+		<description>'99 Koushien (Japan)</description>
+		<rom name="'99 Koushien (Japan).cue" size="1247" crc="05f34aa9" md5="b8c4f71b1ec6e3f08d9496f6eecf5bf7" sha1="f1b0ad29b5cd74d50ecde1ce952d937f9d1d0978"/>
+		<rom name="'99 Koushien (Japan) (Track 01).bin" size="314812848" crc="1d91cbab" md5="7bdc7092aef04c6bec7e78cdfe3d9a81" sha1="c1b7929c137e885569d30803664b26e496f32bb6"/>
+		<rom name="'99 Koushien (Japan) (Track 02).bin" size="16800336" crc="0380fd22" md5="0e56bd53edeccf372fe863b3e88afc30" sha1="912e6dd7c2127b7a449e6ea5e958ca2fde460414"/>
+		<rom name="'99 Koushien (Japan) (Track 03).bin" size="32365872" crc="6d37877c" md5="26d0704b0adca0f286966e98b0178ef4" sha1="436027e9eb936ad87ec350f51b73a7e3fa682b77"/>
+		<rom name="'99 Koushien (Japan) (Track 04).bin" size="29376480" crc="cdde66bb" md5="4b8d1b94e030b53e1148106d6553e7c7" sha1="1e3423aad1c59f92ff4ce4e92e7f40ac12a283e7"/>
+		<rom name="'99 Koushien (Japan) (Track 05).bin" size="38142384" crc="a51b53c0" md5="7509e628d3288a8aae99b9661dbdcd49" sha1="ea8e57e41da54e7c95e8415a05581b17e955afa1"/>
+		<rom name="'99 Koushien (Japan) (Track 06).bin" size="46576656" crc="d4c41db4" md5="d63d8c6c8395eefb2513386296ff1d4d" sha1="1df27dbf54c186fbe4fae1d848c90f22717eff56"/>
+		<rom name="'99 Koushien (Japan) (Track 07).bin" size="39278400" crc="f00ea354" md5="81db2ab2cf5987f42a69da1bd256426e" sha1="88ed751d03a28904db76f7ac599c3f774ffdaa9a"/>
+		<rom name="'99 Koushien (Japan) (Track 08).bin" size="39553584" crc="7f7c2f39" md5="9b16cfa7fbb6221e383f162dfb896f1b" sha1="45d828e5c25fa109b9ad062e4c4389b0e6a55582"/>
+		<rom name="'99 Koushien (Japan) (Track 09).bin" size="5924688" crc="08a2ca49" md5="9f938e86c6332f674662903585dc7c30" sha1="985d9525d7fd0f85b5a9701487c7e5dc59fd6215"/>
+		<rom name="'99 Koushien (Japan) (Track 10).bin" size="30312576" crc="d2ef02e7" md5="db4e1e6dabecc6afc6428b4280ecd210" sha1="5803998a4a6bd31bb79b3c7cc129aca1dca5f96c"/>
+		<rom name="'99 Koushien (Japan) (Track 11).bin" size="32365872" crc="6d37877c" md5="26d0704b0adca0f286966e98b0178ef4" sha1="436027e9eb936ad87ec350f51b73a7e3fa682b77"/>
+	</game>
+	<game name="'Butagee' de Iinja Nai (Japan)">
+		<category>Games</category>
+		<description>'Butagee' de Iinja Nai (Japan)</description>
+		<rom name="'Butagee' de Iinja Nai (Japan).cue" size="96" crc="a9d3ce73" md5="869c596133f27238e4d84fc0566143e7" sha1="c8cfc609a725aa4b7ac443482be4326398e87cfc"/>
+		<rom name="'Butagee' de Iinja Nai (Japan).bin" size="574189056" crc="a33c90e1" md5="abf66f269698c4d8b944504cb1637ce6" sha1="1a9ea3c422c286ae5c9fa1b3f275e5829ad913e2"/>
+	</game>
+</datafile>
