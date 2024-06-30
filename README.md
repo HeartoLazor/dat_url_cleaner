@@ -21,8 +21,8 @@ Generates three files after finish:
 * out.txt: name can be defined by the -o command, it's the url list ready to copy to a mass downloader client like jdownloader.
 * missing_file_list.log: a list of the files from the dat that has not be found in the url_list. This means that you need to look for those remaining urls to complete the dat set.
 * removed_url_list.log: informative log with all of the rejected urls.
-Note 1: the links requires to have the same rom/iso name as the name found in the dat file. For example if in the dat the filename is (Super Mario: Lost Levels) and in the url is (Super Mario Lost Levels), the url will be discarded because of the : character. 
-Note 2: the links urls can have html encoded characters, for example Super%20Mario%20World is transformed automatically to spaces, also caps are ignored in comparisons.
+Note 1: the links requires to have the same rom/iso name as the name found in the dat file. For example if in the dat the filename is `Super Mario: Lost Levels` and in the url is `Super Mario Lost Levels`, the url will be discarded because of the `:` character. 
+Note 2: the links urls can have html encoded characters, for example `Super%20Mario%20World` is transformed automatically to spaces, also caps are ignored in comparisons.
 
 ## Url List Creation Example
 
@@ -41,7 +41,7 @@ Note 2: the links urls can have html encoded characters, for example Super%20Mar
 ]*\
 
 ```
-and replace it with just a break line. Ending with a  url list, ready to be cleaned by this utility:
+and replace it with just a `break line`. Ending with an url list, ready to be cleaned by dat_url_cleaner:
   ![step_3](https://github.com/HeartoLazor/dat_url_cleaner/blob/main/readme_images/url_generation_3.png)
 
 ## Command list:
